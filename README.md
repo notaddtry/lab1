@@ -1,2 +1,2 @@
 # 
-This is convertor temperaturi
+Ryabov Dmitriy IKBO-03-17
