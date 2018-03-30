@@ -4,7 +4,6 @@
 int *stack; /*Create new stack*/
 int tp = 0;
 
-
 int pop(void){  /*Remove an element from the top of our stack and put new*/
     if (tp > 0){
         return stack[--sp];
@@ -15,11 +14,9 @@ int pop(void){  /*Remove an element from the top of our stack and put new*/
     }
 }
 
-
 void push(int a){   /*Put the element on top of the stack*/
     stack[tp++] = a;
 }
-
 
 int main(int argc, char *argv[])
 {
