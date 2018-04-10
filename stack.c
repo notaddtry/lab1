@@ -6,7 +6,7 @@ int tp = 0;
 
 int pop(void){  /*Remove an element from the top of our stack and put new*/
     if (tp > 0){
-        return stack[--sp];
+        return stack[--tp];
     }
     else {
         printf("-1");
