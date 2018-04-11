@@ -30,6 +30,6 @@ int main()
         case 6: printf("Saturday");
             break;
     }
-    scanf("%s");
+   return(0);
 
 }
