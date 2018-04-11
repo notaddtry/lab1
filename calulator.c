@@ -5,8 +5,7 @@
      int sp =0;
      while ( !feof(stdin) ) {
          int c = getchar();
-         switch (c) {
-             case  ' ':
+         switch (c){
              case '\n':
                  break;
              case '=':
@@ -21,7 +20,10 @@
              case '*':
                 stack[sp-2] = stack[sp-1] * stack[sp-2];  sp--;
                 break;
-             case '/':
+             case '\':
+              if stack[sp-1]==0
+              then printf("error")
+              else
                stack[sp-2] = stack[sp-2] / stack[sp-1];   sp--;
                 break;
              default:
